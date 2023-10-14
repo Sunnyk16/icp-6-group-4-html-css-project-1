@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: (243, 244, 244, 1);
+}
+.navbar{
+    background-color:plum;
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.navbar-img{
+    height: 70px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.navbar-title{
+    font-size: 40px;
+    color: white;
+    margin-left: 15px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: cursive    ;
+}
+.navbar-menu{
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    padding: 10px;
+    align-items: center;
+}
+.navbar-btn{
+    background-color: white;
+    border: 2px solid grey;
+    color: black ;
+    padding: 10px 15px;
+    border-radius:  15px;
+    font-size: 25px;
+    margin: 8px;
+}
+.navbar-login{
+    margin-left: 900px; 
+    margin-bottom: -10px; 
+    text-align: center;
+}
+.navbar-login-btn{
+    background-color: white;
+    border: 2px solid   grey;
+    color: black;
+    padding: 5px 15px;
+    border-radius:15px;
+    font-size: 19px;
+    margin-top: -20px; 
+}
+.header-container{
+    display: flex;
+    
+}
+.container-img{
+    height: 600px;
+    width:800px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+.container-block{
+    border: 3px solid plum;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 3px;
+    background: pink;
+}
+.container-text{
+    background-color: white;
+    width: 700px;
+    margin: 8px;
+    border-radius: 15px;
+    color: black;
+}
+.container-text1{
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align:center;
+}
+.container-text2{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.bestseller{
+
+}
+.best-text1{
+    font-size: 50px;
+    margin-top:10px ;
+    font-family: serif;
+    margin-left: 20px;
+    color:plum;
+}
+.best-text2{
+    font-size: 20px;
+    margin-top:10px ;
+    font-family: serif;
+    margin-left: 20px;
+    color:rgb(8, 8, 8);
+    text-align:start;
+}
+.bestseller-1{
+    
+    border: 3px solid plum;
+    border-radius: 10px;
+}
+.best-seller-card{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+.Seller-card{
+    background-color: rgb(236, 239, 240);
+    border: 2px solid grey;
+    width: 300px;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 10px;
+    
+    
+}
+.Seller-image{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+.Seller-text1{
+    text-align: center;
+}
+.Seller-text2{
+    font-size: 10px;
+}
+.footer{
+    height: 150px;
+    background-color: plum;
+    margin-top: 10px;
+}
