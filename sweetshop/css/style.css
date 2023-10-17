@@ -1,10 +1,11 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: (243, 244, 244, 1);
+    background-color:rgb(255, 255, 255);
 }
 .navbar{
-    background-color:plum;
+    background-image: url(../img/navbar2.jpg);
+    
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -39,22 +40,29 @@ body{
     border-radius:  15px;
     font-size: 25px;
     margin: 8px;
+    text-decoration: none;
+
 }
 .navbar-btn:hover{
     background-color: white;
     border: 2px solid grey;
     transition: 0.6s ease;
+    padding: 5px;
 }
 .navbar-login{
      
     margin-bottom: -10px; 
     text-align: right;
     font-size: 25px;
+    text-decoration: none;
+    color: black;
 }
 .navbar-login:hover{
     background-color: white;
     border: 2px solid   grey;
     border-radius: 10px;
+    padding: 5px;
+    transition: 0.6s ease;
 
 }
 /* .navbar-login-btn{
@@ -83,10 +91,14 @@ body{
     padding: 8px;
     border-radius: 15px;
     margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 10px;
     
     background-image: url(../img/1969101.jpg);
     background-size: cover;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .container-text{
     font-family: cursive;
@@ -105,7 +117,10 @@ body{
     font-family: sans-serif;
     padding: 10px;
 }
-.bestseller{
+.best-seller{
+    display: flex;
+    flex-wrap: wrap;
+
 
 }
 .best-text1{
@@ -127,11 +142,15 @@ body{
     
     border: 3px solid gray;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .best-seller-card{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
+    flex-wrap: wrap;
+    padding-left: 20px;
     
 }
 .Seller-card{
@@ -139,25 +158,104 @@ body{
     border: 2px solid grey;
     width: 300px;
     padding: 5px;
+    
     border-radius: 25px;
-    margin: 10px;
-    
-    
+    margin: 25px;
+}
+.Seller-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .Seller-image{
     width: 300px;
     height: 200px;
     border-radius: 15px;
 }
-.Seller-text1{
+.Seller-image:hover{
+    
+    border-radius: 15px;
+    /* transform: scale(1.3); */
+
+    
+
+}
+.review-text1{
     text-align: center;
 }
-.Seller-text2{
+.review-text2{
+    font-size: 15px;
+}
+
+.review{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.review1-text1{
+    font-size: 50px;
+    margin-top:10px ;
+    font-family: serif;
+    margin-left: 20px;
+    color:plum;
+}
+.review2-text2{
+    font-size: 20px;
+    margin-top:10px ;
+    font-family: serif;
+    margin-left: 20px;
+    color:rgb(8, 8, 8);
+    text-align:start;
+}
+.review-1{
+    
+    border: 3px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.review-card{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    
+}
+.review1-card{
+    background-color: rgb(236, 239, 240);
+    border: 2px solid grey;
+    width: 300px;
+    padding: 5px;
+    
+    border-radius: 25px;
+    margin: 25px;
+}
+.review1-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.review-image{
+    margin-left: 60px;    
+    border-radius: 50%;
+}
+/* .review-image:hover{
+    
+    border-radius: 15px;
+    /* transform: scale(1.3); */
+
+    
+
+} */
+.review-text1{
+    text-align: center;
+}
+.review-text2{
     font-size: 15px;
 }
 .footer{
-    background-color: plum;
-    width: 1520px;
+    background-image:url(../img/navbar2.jpg);
+    width: 1508px;
     padding: 5px;
     margin-top: 10px;
     bottom: 0%;
@@ -201,6 +299,7 @@ body{
     .navbar-container{
         margin-left: auto;
         margin-right: auto;
+        width: 480px;
 
     }
     .navbar{
@@ -212,8 +311,27 @@ body{
         flex-direction: column;
         text-align: center;
         margin: 10px;
+    }
+    .footer{
+        display: flex;
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
+        flex-direction: row;
+    }
+    .main-content{
+        flex-direction: column;
+
         
     }
+    .footer-text{
+        font-size: 30px;
+        font-family: serif;
+        color: white;
+    }
+    
+        
 }
 
     
