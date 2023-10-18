@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color:rgb(255, 255, 255);
+    background-color:i;
 }
 .navbar{
     background-image: url(../img/navbar2.jpg);
@@ -127,7 +127,7 @@ body{
     font-size: 50px;
     margin-top:10px ;
     font-family: serif;
-    margin-left: 20px;
+    margin-left: 600px;
     color:plum;
 }
 .best-text2{
@@ -161,6 +161,14 @@ body{
     
     border-radius: 25px;
     margin: 25px;
+}
+.Seller-text1{
+    text-align: center;
+}
+.Seller-text2{
+    text-align: justify;
+    padding: 5px;
+    
 }
 .Seller-card:hover{
     transform: scale(1.1);
@@ -196,8 +204,9 @@ body{
     font-size: 50px;
     margin-top:10px ;
     font-family: serif;
-    margin-left: 20px;
+    margin-left: 600px;
     color:plum;
+    text-align: center;
 }
 .review2-text2{
     font-size: 20px;
@@ -213,6 +222,7 @@ body{
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .review-card{
     display: flex;
@@ -234,9 +244,10 @@ body{
 .review1-card:hover{
     transform: scale(1.1);
     transition: 0.3s;
+    background-image: url(../img/navbar2.jpg);
 }
 .review-image{
-    margin-left: 60px;    
+    margin-left: 70px;    
     border-radius: 50%;
 }
 /* .review-image:hover{
@@ -246,12 +257,19 @@ body{
 
     
 
-} */
+
 .review-text1{
     text-align: center;
 }
 .review-text2{
     font-size: 15px;
+}
+.review-text1{
+    text-align: center;
+}
+.review-text2{
+    text-align:justify;
+    padding: 5px;
 }
 .footer{
     background-image:url(../img/navbar2.jpg);
@@ -330,6 +348,22 @@ body{
         font-family: serif;
         color: white;
     }
+    .review1-text1{
+        font-size: 50px;
+        margin-top:10px ;
+        font-family: serif;
+        margin-left: 10px;
+        color:plum;
+        text-align: center;
+    }
+    .best-text1{
+        font-size: 50px;
+        margin-top:10px ;
+        font-family: serif;
+        margin-left: 20px;
+        color:plum;
+    }
+    
     
         
 }
