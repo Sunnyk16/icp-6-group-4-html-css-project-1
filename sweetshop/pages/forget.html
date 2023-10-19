@@ -2,19 +2,82 @@
 <html>
 
 <head>
-    <title> Set ayour new Password</title>
-    <link rel="stylesheet" href="./css/forget-page.css">
-
+    <title>Change Password</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: wheat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            width: 350px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        h2 {
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            text-align: left;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        
+        input[type="submit"] {
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+        
+        p {
+            margin-top: 10px;
+            color: #666;
+        }
+    </style>
 </head>
 
+<body>
+    <div class="container">
+        <h2>Change Password</h2>
+        <form>
+            <label for="current-password">Current Password:</label>
+            <input type="password" id="current-password" name="current-password" required>
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" name="new-password" required>
 
-<div class="navbar-container">
-    <div class="navbar">
-        <img src="../sweetshop/img/sweet-bread.png" class="navbar-img">
-        <span class="navbar-title">forget</span>
-        <div class="navbar-menu">
-            <span class="navbar-btn">Home</span>
-            <span class="navbar-btn">Services</span>
-            <span class="navbar-btn">About</span></div>
+            <input type="submit" value="Change Password">
+        </form>
+        <p>Remember your password? <a href="login.html">Log in</a></p>
     </div>
-</div>
+</body>
+
+</html>
