@@ -1,74 +1,70 @@
-body {
+body{
     padding: 0;
     margin: 0;
-    background-color: i;
+    background-color:i;
 }
-
-.navbar {
+.navbar{
     background-image: url(../img/navbar2.jpg);
+    
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 5px;
     border-radius: 5px;
 }
-
-.navbar-img {
+.navbar-img{
     height: 70px;
     padding: 5px;
     padding-left: 10px;
 }
-
-.navbar-title {
+.navbar-title{
     font-size: 40px;
     color: white;
     margin-left: 15px;
     padding: 5px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: cursive    ;
 }
-
-.navbar-menu {
+.navbar-menu{
     margin-left: 300px;
     margin-top: 10px;
     margin-bottom: -5px;
     padding: 10px;
     align-items: center;
 }
-
-.navbar-btn {
-    color: black;
+.navbar-btn{
+    
+    
+    color: black ;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius:  15px;
     font-size: 25px;
     margin: 8px;
     text-decoration: none;
-}
 
-.navbar-btn:hover {
+}
+.navbar-btn:hover{
     background-color: white;
     border: 2px solid grey;
     transition: 0.6s ease;
     padding: 5px;
 }
-
-.navbar-login {
-    margin-bottom: -10px;
+.navbar-login{
+     
+    margin-bottom: -10px; 
     text-align: right;
     font-size: 25px;
     text-decoration: none;
     color: black;
 }
-
-.navbar-login:hover {
+.navbar-login:hover{
     background-color: white;
-    border: 2px solid grey;
+    border: 2px solid   grey;
     border-radius: 10px;
     padding: 5px;
     transition: 0.6s ease;
+
 }
-
-
 /* .navbar-login-btn{
     background-color: white;
     border: 2px solid   grey;
@@ -79,297 +75,305 @@ body {
     margin-top: -20px; 
 }
 .header-container{ */
+    display: flex;
+    
 
-display: flex;
-.container-img {
+.container-img{
     height: 600px;
-    width: 800px;
+    width:800px;
     margin-top: 5px;
     margin-left: 2px;
     border: 2px solid grey;
     border-radius: 15px;
 }
-
-.container-block {
+.container-block{
     border: 3px solid gray;
     padding: 8px;
     border-radius: 15px;
     margin-top: 3px;
     margin-left: 5px;
     margin-right: 10px;
+    
     background-image: url(../img/1969101.jpg);
     background-size: cover;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
 }
-
-.container-text {
+.container-text{
     font-family: cursive;
     width: 700px;
     margin: 8px;
     border-radius: 15px;
     color: white;
 }
-
-.container-text1 {
+.container-text1{
     font-size: 50px;
     font-family: sans-serif;
-    text-align: bottom;
+    text-align:bottom;
 }
-
-.container-text2 {
+.container-text2{
     font-size: 40px;
     font-family: sans-serif;
     padding: 10px;
 }
-
-.best-seller {
+.best-seller{
     display: flex;
     flex-wrap: wrap;
-}
 
-.best-text1 {
+
+}
+.best-text1{
     font-size: 50px;
-    margin-top: 10px;
+    margin-top:10px ;
     font-family: serif;
     margin-left: 600px;
-    color: plum;
+    color:plum;
 }
-
-.best-text2 {
+.best-text2{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top:10px ;
     font-family: serif;
     margin-left: 20px;
-    color: rgb(8, 8, 8);
-    text-align: start;
+    color:rgb(8, 8, 8);
+    text-align:start;
 }
-
-.bestseller-1 {
+.bestseller-1{
+    
     border: 3px solid gray;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
 }
-
-.best-seller-card {
+.best-seller-card{
     display: flex;
     justify-content: space-around;
     margin-bottom: 1px;
     flex-wrap: wrap;
     padding-left: 20px;
+    
 }
-
-.Seller-card {
+.Seller-card{
     background-color: rgb(236, 239, 240);
     border: 2px solid grey;
     width: 300px;
     padding: 5px;
+    
     border-radius: 25px;
     margin: 25px;
 }
-
-.Seller-text1 {
+.Seller-text1{
     text-align: center;
 }
-
-.Seller-text2 {
+.Seller-text2{
     text-align: justify;
     padding: 5px;
+    
 }
-
-.Seller-card:hover {
+.Seller-card:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
-
-.Seller-image {
+.Seller-image{
     width: 300px;
     height: 200px;
     border-radius: 15px;
 }
-
-.Seller-image:hover {
+.Seller-image:hover{
+    
     border-radius: 15px;
     /* transform: scale(1.3); */
-}
 
-.review-text1 {
+    
+
+}
+.review-text1{
     text-align: center;
 }
-
-.review-text2 {
+.review-text2{
     font-size: 15px;
 }
 
-.review {
+.review{
     display: flex;
     flex-wrap: wrap;
-}
 
-.review1-text1 {
+
+}
+.review1-text1{
     font-size: 50px;
-    margin-top: 10px;
+    margin-top:10px ;
     font-family: serif;
     margin-left: 600px;
-    color: plum;
+    color:plum;
     text-align: center;
 }
-
-.review2-text2 {
+.review2-text2{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top:10px ;
     font-family: serif;
     margin-left: 20px;
-    color: rgb(8, 8, 8);
-    text-align: start;
+    color:rgb(8, 8, 8);
+    text-align:start;
 }
-
-.review-1 {
+.review-1{
+    
     border: 3px solid gray;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    
 }
-
-.review-card {
+.review-card{
     display: flex;
     justify-content: space-around;
     margin-bottom: 1px;
     flex-wrap: wrap;
     padding-left: 20px;
+    
 }
-
-.review1-card {
+.review1-card{
     background-color: rgb(236, 239, 240);
     border: 2px solid grey;
     width: 300px;
     padding: 5px;
+    
     border-radius: 25px;
     margin: 25px;
 }
-
-.review1-card:hover {
+.review1-card:hover{
     transform: scale(1.1);
     transition: 0.3s;
     background-image: url(../img/navbar2.jpg);
 }
-
-.review-image {
-    margin-left: 70px;
+.review-image{
+    margin-left: 70px;    
     border-radius: 50%;
 }
-
-
 /* .review-image:hover{
     
     border-radius: 15px;
     /* transform: scale(1.3); */
 
-.review-text1 {
+    
+
+
+.review-text1{
     text-align: center;
 }
-
-.review-text2 {
+.review-text2{
     font-size: 15px;
 }
-
-.review-text1 {
+.review-text1{
     text-align: center;
 }
-
-.review-text2 {
-    text-align: justify;
+.review-text2{
+    text-align:justify;
     padding: 5px;
 }
-
-.footer {
-    background-image: url(../img/navbar2.jpg);
-    width: auto;
+.footer{
+    background-image:url(../img/navbar2.jpg);
+    width: 1508px;
     padding: 5px;
     margin-top: 10px;
     bottom: 0%;
     border-radius: 10px;
 }
 
-.main-content {
+
+.main-content{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 10px;
-    padding: 5px;
+    padding: 5px;   
 }
-
-.footer1 {
+.footer1{
     width: 200px;
+    
 }
-
-.footer-text {
+.footer-text{
     font-size: 30px;
     font-family: serif;
     color: white;
 }
-
-.social {
+.social{
     padding: 10px;
 }
-
-.text {
+.text{
     font-size: 20px;
     padding: 5px;
 }
-
-.email1 {
+.email1{
     border-radius: 15px;
     border: 2px solid white;
     margin: 5px;
 }
-
-@media screen and (max-width:600px) {
-    .navbar {
+@media screen and (max-width:600px){
+    .navbar{
+        
         background-color: plum;
     }
-    .navbar-container {
+    .navbar-container{
         margin-left: auto;
         margin-right: auto;
         width: 480px;
+
     }
-    .navbar {}
-    .navbar-menu {
+    .navbar{
+        
+        
+    }
+    .navbar-menu{
         display: block;
         flex-direction: column;
         text-align: center;
         margin: 10px;
     }
-    .footer {
+    .footer{
         display: flex;
+        
         margin-left: auto;
         margin-right: auto;
         width: 480px;
         flex-direction: row;
     }
-    .main-content {
+    .main-content{
         flex-direction: column;
+
+        
     }
-    .footer-text {
+    .footer-text{
         font-size: 30px;
         font-family: serif;
         color: white;
     }
-    .review1-text1 {
+    .review1-text1{
         font-size: 50px;
-        margin-top: 10px;
+        margin-top:10px ;
         font-family: serif;
         margin-left: 10px;
-        color: plum;
+        color:plum;
         text-align: center;
     }
-    .best-text1 {
+    .best-text1{
         font-size: 50px;
-        margin-top: 10px;
+        margin-top:10px ;
         font-family: serif;
         margin-left: 20px;
-        color: plum;
+        color:plum;
     }
+    
 }
+
+body {
+    background-image:(url:('chakli_shev_background.jpg');
+Background-repeat: no-repeat;
+Background-attchment: fixed;
+Background -sized: 100% 100%;
+}
+    
+
+
+    
+
