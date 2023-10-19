@@ -1,5 +1,6 @@
 body {
-    background-color: white
+    background-color: rgb(204, 207, 206);
+   
 }
 
 .main {
@@ -9,49 +10,66 @@ body {
     margin-top: 40px;
     width: 1400px;
     height: 400px;
+    border: 5px solid black;
+    box-shadow: 8px 8px 10px 10px  gray;
+    border-radius: 20px;
 }
+   
+    
+
+
 
 .sweets {
     border: solid 3px rgb(80, 72, 72);
-    height: 360px;
-    width: 300px;
-    background-color: rgb(231, 227, 227);
+    height: 500px;
+    width: 320px;
+    background-color: rgb(243, 187, 155);
     border-radius: 10px;
     display: inline-block;
-    padding: 20px;
-    margin: 100px;
+    padding: 10px;
+    
     margin-top: 30px;
     margin-left: 60px;
     margin-right: 60px;
-    box-shadow: 2px 2px 5px 4px gray;
+    box-shadow: 8px 8px 10px 10px gray;
 
 }
 
 .sweetimg:hover {
-    border-radius: 40px;
-    box-shadow: 5px 5px 20px gray;
-    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+    transition: 0.5s;
     cursor: pointer;
 }
 
 .sweetimg {
     height: 250px;
     width: 300px;
-    border-radius: 10px;
+    border-radius: 150px;
 }
 
 .h1 {
     text-align: center;
     font-size: 30px;
 }
+.recipe{text-align: center;
+    font-size: 20px;
+    color: black;
+}
 
 .sweetbutton {
-    background-color: red;
+    background-color: rgb(43, 41, 41);
     color: antiquewhite;
-    font-size: 30px;
-    border: darkred 2px solid;
-    border-radius: 5px;
+    font-size: 25px;
+    border: rgb(12, 10, 10) 5px solid;
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.sweetbutton:hover {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.3s;
+    cursor: pointer;
 }
