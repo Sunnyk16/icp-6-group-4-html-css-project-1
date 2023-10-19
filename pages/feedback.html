@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"  href="./css/feedback.css">
+</head>
+
+<body> 
+    <div class="navbar-container">
+        <div class="navbar">
+            <img src="./img/sweet-bread.png" class="navbar-img">
+            <span class="navbar-title">Frosty</span>
+            <div class="navbar-menu">
+                <span class="navbar-btn">Home</span>
+                <span class="navbar-btn">Services</span>
+                <span class="navbar-btn">About</span>
+
+                <a href="./pages/login.html" class="navbar-login">Login </a><span>
+    
+            </div>
+    
+    
+        </div>
+        
+    </div>
+     
+
+            <h2> “We all need people who will give us feedback.That’s how we improve.........."</h2>
+    <div class="feedback-container">
+        <div class="main">
+            <label for="feedback">Feedback</label>
+        </div>
+        <form>
+            <div class="input-void">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-void">
+                <label for="email">Email </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="feedback">Your Feedback</label>
+                <textarea id="feedback" name="feedback" rows="5" required></textarea>
+            </div>
+            <div class="input-container">
+                <label for="rating">Rate Your Experience</label>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1"></label>
+                </div>
+            </div>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
