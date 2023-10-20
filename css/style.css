@@ -5,15 +5,25 @@ body{
 }
 .navbar{
     background-image: url(../img/navbar2.jpg);
+
     
     width: 100%;
+
+    width: auto;
+
     display: flex;
     flex-wrap: wrap;
     padding-top: 5px;
     border-radius: 5px;
 }
+
 .navbar-img{
     height: 70px;
+
+
+.navbar-img {
+    height: 50px;
+
     padding: 5px;
     padding-left: 10px;
 }
@@ -48,6 +58,7 @@ body{
     border: 2px solid grey;
     transition: 0.6s ease;
     padding: 5px;
+    box-shadow: 0 0 5px whitesmoke;
 }
 .navbar-login{
      
@@ -62,7 +73,14 @@ body{
     border: 2px solid   grey;
     border-radius: 10px;
     padding: 5px;
+
     transition: 0.6s ease;
+
+    
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+
 
 }
 /* .navbar-login-btn{
@@ -75,10 +93,14 @@ body{
     margin-top: -20px; 
 }
 .header-container{ */
+
     display: flex;
     
 
 .container-img{
+
+.container-img {
+
     height: 600px;
     width:800px;
     margin-top: 5px;
@@ -89,11 +111,15 @@ body{
 .container-block{
     border: 3px solid gray;
     padding: 8px;
+
     border-radius: 15px;
     margin-top: 3px;
     margin-left: 5px;
     margin-right: 10px;
-    
+
+    border-radius: 8px;
+    width: auto;
+
     background-image: url(../img/1969101.jpg);
     background-size: cover;
     height: 500px;
@@ -116,6 +142,7 @@ body{
     font-size: 40px;
     font-family: sans-serif;
     padding: 10px;
+    
 }
 .best-seller{
     display: flex;
@@ -134,9 +161,15 @@ body{
     font-size: 20px;
     margin-top:10px ;
     font-family: serif;
+
     margin-left: 20px;
     color:rgb(8, 8, 8);
     text-align:start;
+
+    margin-left: 500px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+
 }
 .bestseller-1{
     
@@ -317,7 +350,11 @@ body{
     .navbar-container{
         margin-left: auto;
         margin-right: auto;
+
         width: 480px;
+
+
+        width: auto;
 
     }
     .navbar{
@@ -363,6 +400,7 @@ body{
         margin-left: 20px;
         color:plum;
     }
+
     
 }
 
@@ -376,4 +414,12 @@ Background -sized: 100% 100%;
 
 
     
+
+
+   .best-text2{
+        margin-left: auto;
+        padding: 5px;
+
+    }
+}
 
