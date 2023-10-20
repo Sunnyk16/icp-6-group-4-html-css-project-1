@@ -306,7 +306,7 @@ body{
 }
 .footer{
     background-image:url(../img/navbar2.jpg);
-    width: 1508px;
+    width: auto;
     padding: 5px;
     margin-top: 10px;
     bottom: 0%;
