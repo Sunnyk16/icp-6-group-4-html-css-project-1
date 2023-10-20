@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title> Set ayour new Password</title>
-    <link rel="stylesheet" href="./css/forget-page.css">
-
+    <link rel="stylesheet" href="../css/forget.css">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Forgot Password</title>
 </head>
 
-
-<div class="navbar-container">
-    <div class="navbar">
-        <img src="../sweetshop/img/sweet-bread.png" class="navbar-img">
-        <span class="navbar-title">forget</span>
-        <div class="navbar-menu">
-            <span class="navbar-btn">Home</span>
-            <span class="navbar-btn">Services</span>
-            <span class="navbar-btn">About</span></div>
+<body>
+    <div class="forgot-password-container">
+        <h2>Forgot Password</h2>
+        <p>Enter your email address, and we'll send you a password reset link.</p>
+        <form id="forgot-password-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Send Reset Link</button>
+        </form>
     </div>
-</div>
+</body>
+
+</html>
