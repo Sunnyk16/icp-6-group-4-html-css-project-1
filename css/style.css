@@ -1,7 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+<<<<<<< HEAD
+    
+=======
     background-color:i;
+>>>>>>> 1247918140a838bf5b7c7b119d266f1a73c4a802
 }
 .navbar{
     background-image: url(../img/navbar2.jpg);
@@ -19,6 +23,9 @@ body{
 
 .navbar-img{
     height: 70px;
+}
+    
+
 
 
 .navbar-img {
@@ -80,26 +87,7 @@ body{
     box-shadow: 0 0 5px whitesmoke;
 }
 
-
-
-}
-/* .navbar-login-btn{
-    background-color: white;
-    border: 2px solid   grey;
-    color: black;
-    padding: 5px 15px;
-    border-radius:15px;
-    font-size: 25px;
-    margin-top: -20px; 
-}
-.header-container{ */
-
-    display: flex;
-    
-
-.container-img{
-
-.container-img {
+/* .container-img {
 
     height: 600px;
     width:800px;
@@ -107,19 +95,12 @@ body{
     margin-left: 2px;
     border: 2px solid grey;
     border-radius: 15px;
-}
+} */
 .container-block{
     border: 3px solid gray;
     padding: 8px;
-
-    border-radius: 15px;
-    margin-top: 3px;
-    margin-left: 5px;
-    margin-right: 10px;
-
     border-radius: 8px;
     width: auto;
-
     background-image: url(../img/1969101.jpg);
     background-size: cover;
     height: 500px;
@@ -277,7 +258,7 @@ body{
 .review1-card:hover{
     transform: scale(1.1);
     transition: 0.3s;
-    background-image: url(../img/navbar2.jpg);
+    box-shadow: 3px 3px 2px gray;
 }
 .review-image{
     margin-left: 70px;    
@@ -342,6 +323,8 @@ body{
     border: 2px solid white;
     margin: 5px;
 }
+
+
 @media screen and (max-width:600px){
     .navbar{
         
@@ -400,26 +383,21 @@ body{
         margin-left: 20px;
         color:plum;
     }
-
-    
-}
-
-body {
-    background-image:(url:('chakli_shev_background.jpg');
-Background-repeat: no-repeat;
-Background-attchment: fixed;
-Background -sized: 100% 100%;
-}
-    
-
-
-    
-
-
-   .best-text2{
-        margin-left: auto;
-        padding: 5px;
-
+    body {
+        background-image:url:('chakli_shev_background.jpg');
+        Background-repeat: no-repeat;
+        Background-attchment: fixed;
+        Background -sized: 100% 100%;
     }
+    .best-text2{
+            margin-left: auto;
+            padding: 5px;
+    
+        }
+    
+    
+
+    
 }
+
 
