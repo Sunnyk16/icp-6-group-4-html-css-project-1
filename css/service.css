@@ -1,9 +1,68 @@
 body{
-    padding: 0;
-    margin: 0;
-    background-color: (243, 244, 244, 1);
+    background-image:url('../img/chakli_shev_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-.navbar{
+
+.main{   
+          display: flex;
+          flex-wrap:wrap;
+          justify-content: space-around;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 1400px;
+            height: 300px;
+            }
+
+ .chatpata{
+border: solid 3px   rgb(80, 72, 72);
+ height: 360px;
+ width: 300px;
+ background-color:rgb(231, 227, 227);
+ border-radius: 10px;
+ display: inline-block;
+ padding: 20px;
+ margin: 100px;
+ margin-top: 30px;
+ margin-left: 60px;
+ margin-right: 60px;
+ box-shadow: 2px  2px 5px 4px gray;
+  }
+
+  .chatpataimg:hover{
+    border-radius: 40px;
+         box-shadow: 5px 5px 20px gray;
+        transition: 0.3s;
+        cursor: pointer;
+        width: 300px;
+        height: 250px;
+     }
+
+.chatpataimg{  height: 250px;     
+width: 300px; 
+border-radius: 10px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 30px;
+     }  
+
+.chatpatabutton
+{
+background-color: red;
+color: antiquewhite;
+font-size: 30px;
+border: darkred 2px solid;
+border-radius: 5px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+ }   
+ 
+ .navbar{
     background-color:plum;
     width: 100%;
     display: flex;
@@ -46,84 +105,8 @@ body{
     border: 2px solid grey;
     transition: 0.6s ease;
 }
-.Ourservice-1{
-    
-    border: 3px solid gray;
-    border-radius: 10px;
-    
-}
-.service-text1{
-    text-align: center;
-    font-family: sans-serif;
-    color: plum;
-    
-}
-.service-text2{
-    text-align: center;
-}
-.service{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1px;
-    flex-wrap: wrap;
-    padding-left: 20px;
-
-}
-.service-card{
-    background-color: rgb(236,239,240);
-    border: 2px solid grey;
-    width: 300px;
-    padding: 5px;
-    border-radius: 25px;
-    margin:25px;
-    margin-left: 25px;
-    display: block;
-    margin-top: 10px;
-
-}
-.service-card:hover{
-    transform: scale(1.1);
-    transition: 0.3s;  
-    
-}
-
-
-.service-image{
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
-}
-.service-text{
-    text-align: center;
-}
-
-.recipe-title{
-    text-align: center;
-}
-.order-btn{
-    border-radius: 2px solid rgb(167,4,4);
-    border-radius: 20px;
-    color: #d70909;
-    background-color: azure;
-    padding:10px;
-    position: relative;
-    margin-top: 20px;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    width: 90px;
-    text-align: center;
-}
-.order-btn:hover{
-    background-color:#d70909;
-    color:azure;
-    cursor:pointer;
-    margin-left: auto;
-}
-    
-.footer{
+ 
+ .footer{
     background-color: plum;
     width: 1250px;
     padding: 5px;
@@ -137,9 +120,6 @@ body{
     flex-wrap: wrap;
     margin: 10px;
     padding: 5px;   
-}
-@media screen and(min-width:600px)and(max-width:768px){
-    
 }
 .footer1{
     width: 200px;
@@ -156,9 +136,4 @@ body{
 .text{
     font-size: 20px;
     padding: 5px;
-}
-.email1{
-    border-radius: 15px;
-    border: 2px solid white;
-    margin: 5px;
 }
